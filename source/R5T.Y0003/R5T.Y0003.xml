@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>R5T.Y0003</name>
+    </assembly>
+    <members>
+        <member name="T:R5T.Y0003.Documentation">
+            <summary>
+            Documentation for indentation concepts.
+            </summary>
+        </member>
+        <member name="F:R5T.Y0003.Documentation.ForIndentation.ConversionToIndentationFromLineIndentation">
+            <summary>
+            Conversion from <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.LineIndentation" path="/name"/> to <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.Indentation" path="/name"/> by removing everything at the beginning of the <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.Indentation" path="/name"/> up to and including the last line break found in the <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.LineIndentation" path="/name"/>.
+            </summary>
+        </member>
+        <member name="F:R5T.Y0003.Documentation.ForIndentation.ConversionToLineIndentationFromIndentation">
+            <summary>
+            Conversion from <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.Indentation" path="/name"/> to <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.LineIndentation" path="/name"/> is done by prefixing a line break to the <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.Indentation" path="/name"/>.
+            </summary>
+        </member>
+        <member name="F:R5T.Y0003.Glossary.ForIndentation.Indentation">
+            <summary>
+            <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.Indentation" path="/definition"/>
+            </summary>
+            <definition>Indentation is the series of tabs and spaces at the beginning of a line.</definition>
+            <name><i>indentation</i></name>
+        </member>
+        <member name="F:R5T.Y0003.Glossary.ForIndentation.LineIndentation">
+            <summary>
+            <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.LineIndentation" path="/definition"/>
+            </summary>
+            <definition>Line indentation is <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.Indentation" path="/name"/> that begins with zero or more line breaks.</definition>
+            <name><i>line indentation</i></name> 
+        </member>
+        <member name="F:R5T.Y0003.Glossary.ForIndentation.Tabination">
+            <summary>
+            <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.Tabination" path="/definition"/>
+            </summary>
+            <definition>The spacing for <inheritdoc cref="F:R5T.Y0003.Glossary.ForIndentation.Indentation" path="/name"/> should be made up of tabs.</definition>
+            <name><i>tabination</i></name>
+        </member>
+    </members>
+</doc>

@@ -6,7 +6,7 @@ namespace R5T.Y0003
     /// <summary>
     /// Documentation for indentation concepts.
     /// </summary>
-    public static class Documentation
+    public static partial class Documentation
     {
     }
 }
