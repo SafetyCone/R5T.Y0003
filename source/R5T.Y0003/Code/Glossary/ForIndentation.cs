@@ -1,13 +1,14 @@
 ﻿using System;
 
+using R5T.T0156;
+
 
 namespace R5T.Y0003
 {
-#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
     public static partial class Glossary
     {
+        [DocumentationMarker]
         public static class ForIndentation
-#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
         {
             /// <summary>
             /// <inheritdoc cref="Indentation" path="/definition"/>
